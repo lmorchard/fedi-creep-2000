@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a bot that indexes public posts from mutuals",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js server",
@@ -28,6 +31,7 @@
     "knex": "^2.4.0",
     "nodemon": "^2.0.20",
     "objection": "^3.0.1",
+    "p-queue": "^7.3.0",
     "pino": "^8.8.0",
     "pino-pretty": "^9.1.1",
     "sqlite3": "^5.1.4"
