@@ -8,8 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js server",
-    "dev": "nodemon index.js server | pino-pretty"
+    "start": "node index.js serve",
+    "dev": "nodemon index.js serve | pino-pretty"
   },
   "nodemonConfig": {
     "ignore": [
